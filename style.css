@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  /* border: 2px solid red; */
+  
+}
+.red-orange{
+  height: 700px;
+  width: 100%;
+  background: #ff6600;
+   
+}
+.dark-blue{
+height: 650px;
+width: 100%;
+background: #03031d;
+border-radius: 0 0px 150px 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.header a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+.header a:active{
+  color: #ff6600;
+  border-bottom:3px #FFF solid;
+}
+.header a:hover{
+  transition: all 0.2s;
+  color: #ff6600;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  background: #ff6600;
+  color: #fff;
+  height: 130px;
+ justify-content: center;
+ font-size: 35px;
+ font-weight: 1500px;
+ text-align: center;
+}
+.btn {
+  margin-left: 40px;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #040426;
+}
+.btn:hover{
+  background: #ff6600;
+  color: #fff;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60vh;
+ 
+}
+h1 {
+  color: #ff6600;
+  font-size: 80px;
+  font-weight: 900px;
+  line-height: 30px;
+}
+h2{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 1000px;
+  margin-top: 20px;
+  
+}
+.p{
+  color: #fff;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.btn1{ 
+  margin-top: 20px;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  background: #ff6600;
+  color: #fff;
+  font-weight: 600;
+ }
+ .btn1:hover{
+  background: dodgerblue;
+  color:#fff;
+ }
+.img{
+  position: relative;
+  height: auto;
+  z-index: 10;
+
+}
+.text{
+  width: 300px;
+  border:20px #ff6600;
+  font-size: 900;
+  font-weight: 500;
+}
+.section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 1220px;
+  margin: auto;
+  gap: 48px;
+}
+.wrapperx{
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+.overview{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  font-size: 30px;
+ }
+ .flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  box-shadow: 4px 4px 16px 4px #e0e0e0;
+  padding: 32px 24px;
+  border-bottom: 2px solid #ff6600;
+ }
+ .heart{
+  padding: 24px;
+  border: 1px solid #ff6600;
+  border-radius: 100px;
+ }
